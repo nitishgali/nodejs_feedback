@@ -1,0 +1,4 @@
+ create table feedback( id int primary key auto_increment , firstname varchar(20) , lastname varchar(20) , feedbacktype varchar(20) , subject text , descr text , dt datetime , feedbackstatus varchar(100),comments text,email varchar(40));
+
+ alter table feedback auto_increment=56789;
+ 
