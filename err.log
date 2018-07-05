@@ -1,0 +1,21 @@
+fs.js:145
+    throw err;
+    ^
+
+Error: ENOENT: no such file or directory, open './config/app.properties'
+    at Object.fs.openSync (fs.js:579:3)
+    at Object.fs.readFileSync (fs.js:485:33)
+    at PropertiesReader.append (/home/maddy/myapp/node_modules/properties-reader/src/PropertiesReader.js:49:26)
+    at new PropertiesReader (/home/maddy/myapp/node_modules/properties-reader/src/PropertiesReader.js:16:14)
+    at PropertiesReader.builder (/home/maddy/myapp/node_modules/properties-reader/src/PropertiesReader.js:276:16)
+    at Object.<anonymous> (/home/maddy/myapp/config/mysqlConfig.js:4:18)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Module.require (internal/modules/cjs/loader.js:650:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/home/maddy/myapp/app.js:21:26)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
